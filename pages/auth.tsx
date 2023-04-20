@@ -9,7 +9,7 @@ import { FaSpinner } from 'react-icons/fa';
 import Image from 'next/image';
 
 function validName(name: string): boolean {
-  return /^[a-zA-Z]{2,}(?: [a-zA-Z]+){0,2}$/.test(name);
+  return /^[a-zA-Z0-9]{2,12}$/.test(name);
 }
 
 function validEmail(email: string): boolean {

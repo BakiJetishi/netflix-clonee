@@ -7,7 +7,7 @@ function Section5() {
   return (
     <section className='bg-gray-900/50 p-4 py-20'>
       <div className='flex flex-col gap-2 h-full items-center'>
-        <h1 className='font-bold text-5xl mb-5 text-white'>
+        <h1 className='font-bold text-2xl md:text-5xl mb-5 text-white'>
           Frequently Asked Questions
         </h1>
         <Button
@@ -42,7 +42,7 @@ function Section5() {
         />
       </div>
       <div className='flex w-full text-center justify-center mt-10 flex-col'>
-        <h1 className='text-white text-2xl'>
+        <h1 className='text-white text-lg md:text-2xl'>
           Ready to watch? Enter your email to create or restart your membership.
         </h1>
         <div className='flex flex-col md:flex-row gap-2 items-center justify-center mt-5'>

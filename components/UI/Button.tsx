@@ -14,10 +14,10 @@ const Button = ({ title, info }: InputProps) => {
         onClick={() => {
           setShowInfo((e) => !e);
         }}
-        className='text-white w-full bg-blue-950/50 hover:bg-blue-900/50 p-5 text-2xl flex relative z-10 items-center justify-between'
+        className='text-white w-full bg-blue-950/50 hover:bg-blue-900/50 p-5 text-xl md:text-2xl flex relative z-10 items-center justify-between'
       >
         <span>{title}</span>
-        <span className='text-5xl'>+</span>
+        <span className='text-lg md:text-5xl'>+</span>
       </button>
       {showInfo && (
         <p

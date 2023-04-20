@@ -48,7 +48,7 @@ const SimilarMovies = ({ movieId }: SimilarMoviesProps) => {
     <>
       {similarMovieData && similarMovieData.length !== 0 && (
         <div className='flex flex-col justify-center items-center'>
-          <h1 className='text-2xl text-white font-bold self-start mt-20 mb-5'>
+          <h1 className='text-2xl text-white font-bold self-start mt-4 sm:mt-16 mb-5'>
             More Like This
           </h1>
 

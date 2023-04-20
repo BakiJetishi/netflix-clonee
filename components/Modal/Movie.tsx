@@ -48,7 +48,7 @@ const Movie = ({ data, onClose }: any) => {
   };
 
   return (
-    <div className='relative h-[30rem]'>
+    <div className='relative h-[20rem] md:h-[30rem]'>
       <Image
         src={`https://image.tmdb.org/t/p/w500/${
           data?.backdrop_path !== undefined ? data?.backdrop_path : ''

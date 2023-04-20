@@ -79,12 +79,12 @@ const SimilarTvShows = ({ movieId, seasons }: SimilarTvShowsProps) => {
       {similarTvShowsData && (
         <div className='flex flex-col justify-center items-center'>
           <div className='flex justify-between w-full'>
-            <h1 className='text-2xl text-white font-bold self-start mt-20 mb-5'>
+            <h1 className='text-xl md:text-2xl text-white font-bold self-start mt-7 sm:mt-20 mb-5'>
               Episodes
             </h1>
             <select
               onChange={(e) => setSelectedSeason(e.target.value)}
-              className='h-10 w-48 self-end rounded-sm mb-4 bg-transparent ring-1 ring-gray-500 text-gray-300 px-3'
+              className='h-10 w-36 sm:w-48 self-end rounded-sm mb-4 bg-transparent ring-1 ring-gray-500 text-gray-300 px-3'
               value={selectedSeason}
             >
               {seasons?.map((season: any) => (
@@ -101,7 +101,7 @@ const SimilarTvShows = ({ movieId, seasons }: SimilarTvShowsProps) => {
           <div className='flex flex-col'>
             {similarTvShowsData?.map((data: any, index: any) => (
               <div
-                className={`flex gap-4 p-10 hover:bg-gray-700/30 cursor-pointer ${
+                className={`flex flex-col sm:flex-row items-center gap-4 p-10 hover:bg-gray-700/30 cursor-pointer ${
                   index === 0 ? 'bg-gray-700/30' : ''
                 }`}
                 key={data.id}
@@ -115,7 +115,7 @@ const SimilarTvShows = ({ movieId, seasons }: SimilarTvShowsProps) => {
                     className='h-full object-cover w-52'
                   />
                 </div>
-                <div className='-mt-2 relative w-[70%]'>
+                <div className='-mt-2 relative w-full sm:w-[70%]'>
                   <h2 className='text-gray-50 mb-2 text-xl'>
                     Part {toRoman(data.episode_number)}
                   </h2>

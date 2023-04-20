@@ -16,7 +16,7 @@ const MovieInfos = ({ data }: any) => {
         <p className='text-lg text-orange-200 font-bold mb-5'>
           IMDb: {data?.vote_average.toFixed(1)}
         </p>
-        <p className='text-white text-md'>{data?.overview}</p>
+        <p className='text-white text-sm md:text-md'>{data?.overview}</p>
       </div>
       <div className='flex flex-col col-span-2 md:col-span-1 gap-2 mt-10'>
         <p className='text-white text-md'>

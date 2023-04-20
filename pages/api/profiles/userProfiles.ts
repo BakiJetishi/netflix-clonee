@@ -1,5 +1,6 @@
 import serverAuth from '@/lib/serverAuth';
 import { NextApiRequest, NextApiResponse } from 'next';
+import prismadb from '@/lib/prisma';
 
 async function current(req: NextApiRequest, res: NextApiResponse) {
   try {

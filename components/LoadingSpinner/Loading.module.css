@@ -2,6 +2,10 @@
   display: inline-block;
   width: 80px;
   height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-150%, -100%);
 }
 .spinner:after {
   content: ' ';
@@ -13,7 +17,6 @@
   border: 6px solid teal;
   border-color: teal transparent teal transparent;
   animation: spinner 1.2s linear infinite;
-  transform: translate(-50%, -50%);
 }
 @keyframes spinner {
   0% {
@@ -21,5 +24,12 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .spinner:after {
+    width: 200px;
+    height: 200px;
   }
 }

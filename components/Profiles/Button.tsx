@@ -10,7 +10,7 @@ const Button: React.FC<ButtonProps> = ({ onClick, text }) => {
     <button
       type='submit'
       onClick={onClick}
-      className='px-6 hover:bg-gray-200 py-2 bg-transparent border border-gray-500 text-gray-500 uppercase'
+      className='px-6 rounded-sm hover:opacity-70 py-2 text-sm md:text-md bg-transparent border border-gray-500 text-gray-500 uppercase'
     >
       {text}
     </button>

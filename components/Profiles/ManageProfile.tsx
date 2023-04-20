@@ -89,7 +89,7 @@ const ManageProfile = ({
             <AiOutlineEdit size={20} />
           </div>
         </div>
-        <div className='mt-4 text-gray-400 text-2xl text-center group-hover:text-white'>
+        <div className='mt-4 text-gray-400 text-lg md:text-2xl text-center group-hover:text-white'>
           <input
             type='text'
             value={name}
@@ -99,7 +99,7 @@ const ManageProfile = ({
             ref={NameInputRef}
           />
         </div>
-        <div className='flex gap-2 rounded-lg mt-2'>
+        <div className='flex justify-center flex-wrap gap-2 mt-2'>
           <Button text={'Save'} />
           <Button onClick={onCancel} text={'Cancel'} />
           {profileData && (

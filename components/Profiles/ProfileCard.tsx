@@ -30,8 +30,8 @@ const ProfileCard = ({
             key={e.id}
             onClick={manageProfiles ? () => handleClick(e.id) : onHome}
           >
-            <div className='group w-44 mx-auto'>
-              <div className='w-44 h-44 rounded-md flex relative items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
+            <div className='group w-24 md:w-44 mx-auto'>
+              <div className='w-24 md:w-44 h-24 md:h-44 rounded-md flex relative items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
                 <Image
                   width={500}
                   height={500}
@@ -47,7 +47,7 @@ const ProfileCard = ({
                   </div>
                 )}
               </div>
-              <div className='mt-4 text-gray-400 text-2xl text-center group-hover:text-white'>
+              <div className='mt-4 text-gray-400 text-md md:text-2xl text-center group-hover:text-white'>
                 {e?.name}
               </div>
             </div>

@@ -35,7 +35,7 @@ const Profiles = () => {
 
   if (isLoading) {
     return (
-      <div className='bg-black h-screen w-screen flex justify-center items-center pb-[264px] pr-[264px]'>
+      <div className='bg-black relative h-screen w-screen'>
         <Loading />
       </div>
     );
@@ -55,12 +55,12 @@ const Profiles = () => {
   }
 
   return (
-    <div className='bg-black flex justify-center h-screen items-center'>
+    <div className='bg-black flex justify-center min-h-screen items-center'>
       <div className='flex flex-col'>
         <h1 className='text-center text-2xl md:text-5xl text-white'>
           Who&apos;s watching?
         </h1>
-        <div className='flex items-center justify-center gap-8 mt-10'>
+        <div className='flex items-center flex-wrap justify-center gap-8 mt-10'>
           <ProfileCard
             data={data}
             manageProfiles={manageProfiles}

@@ -1,6 +1,8 @@
-<h1 align="center">**Netflix Clone**</h1>
+<h1 align="center">Netflix Clone</h1>
 
-**Built with:**
+<a href="https://netflix-clonee-plum.vercel.app/" style="font-size: 2em;">View Demo</a>
+
+<h3>Built with:</h3>
 
 - Typescript
 - NextJS
@@ -9,8 +11,6 @@
 - Tailwind
 - Prisma
 - MongoDB
-
-[View Demo](https://netflix-clonee-plum.vercel.app/)
 
 ![First Page](https://i.ibb.co/gJwKhrc/localhost-3000.png)
 ![Login](https://i.ibb.co/6wG7zy0/localhost-3000-auth.png)

@@ -1,38 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">**Netflix Clone**</h1>
 
-## Getting Started
+**Built with:**
 
-First, run the development server:
+- Typescript
+- NextJS
+  - _Next-Auth_
+- Redux
+- Tailwind
+- Prisma
+- MongoDB
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+[View Demo](https://netflix-clonee-plum.vercel.app/)
+
+![First Page](https://i.ibb.co/gJwKhrc/localhost-3000.png)
+![Login](https://i.ibb.co/6wG7zy0/localhost-3000-auth.png)
+![Register](https://i.ibb.co/VC3bHJr/Screenshot-2023-04-21-175649.png)
+![Home Page](https://i.ibb.co/b3YkS81/localhost-3000-home-3.png)
+![Search](https://i.ibb.co/MhrGWYV/localhost-3000-home.png)
+![Modal](https://i.ibb.co/xFNJxN5/Screenshot-2023-04-20-171001.png)
+![Modal](https://i.ibb.co/xqJPDmQ/Screenshot-2023-04-20-171027.png)
+![Profile](https://i.ibb.co/pzMhw4c/localhost-3000-profiles.png)
+
+<h4>**Installation**</h4>
+
+1. Clone this repo
+
+```sh
+git clone https://github.com/BakiJetishi/netflix-clonee.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Go into the project root directory
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+cd netflix-clonee
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Create .env file
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+DATABASE_URL="your database"
+NEXTAUTH_JWT_SECRET="your key"
+NEXTAUTH_SECRET="your key"
+API_KEY="your api key from themoviedb.org"
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Create .env.local file
 
-## Learn More
+```sh
+API_KEY="your api key from themoviedb.org"
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. Install dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+6. Run
 
-## Deploy on Vercel
+```sh
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://netflix-clonee-plum.vercel.app/auth

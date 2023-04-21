@@ -1,6 +1,8 @@
 <h1 align="center">Netflix Clone</h1>
 
+<div style="text-align: center;">
 <a href="https://netflix-clonee-plum.vercel.app/" style="font-size: 2em;">View Demo</a>
+</div>
 
 <h3>Built with:</h3>
 

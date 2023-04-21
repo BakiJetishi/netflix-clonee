@@ -16,7 +16,7 @@
 
 ![First Page](https://i.ibb.co/gJwKhrc/localhost-3000.png)
 ![Login](https://i.ibb.co/6wG7zy0/localhost-3000-auth.png)
-![Register](https://i.ibb.co/VC3bHJr/Screenshot-2023-04-21-175649.png)
+![Register](https://i.ibb.co/KsmBNbR/Screenshot-2023-04-21-175649.png)
 ![Home Page](https://i.ibb.co/b3YkS81/localhost-3000-home-3.png)
 ![Search](https://i.ibb.co/MhrGWYV/localhost-3000-home.png)
 ![Modal](https://i.ibb.co/xFNJxN5/Screenshot-2023-04-20-171001.png)
